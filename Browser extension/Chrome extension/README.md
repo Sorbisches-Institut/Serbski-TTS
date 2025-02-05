@@ -18,7 +18,7 @@ This repository contains a Chrome extension. Follow the steps below to load it i
    - Click **"Load unpacked"**  
    - Select the extracted folder  
 
-4. **Done! 🎉**  
+4. **Done!**  
    The extension is now installed and ready to use.  
 
 ## Updating the Extension  
