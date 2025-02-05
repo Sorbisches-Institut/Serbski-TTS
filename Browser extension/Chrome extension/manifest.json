@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Serbski Text-to-Speech Erweiterung",
+  "version": "1.0",
+  "description": "Diese Browsererweiterung ermöglicht es, sich den sorbischsprachigen Haupttext einer Webseite auf Nieder- bzw. Obersorbisch vorlesen zu lassen. | Text-to-speech-system k předčitanju delnjo- a hornjoserbskich tekstow. | Text-to-speech-system k pśedcytanju dolno- a górnoserbskich tekstow.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "32": "icons/icon32.png",
+	"64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+	"css": ["styles.css"],
+    "js": ["content.js"]
+  }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

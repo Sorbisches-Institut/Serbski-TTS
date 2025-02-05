@@ -1,0 +1,90 @@
+/* Hebt das aktuell fokussierte Element (Reader-Modus) mit gelbem Hintergrund hervor */
+.readerFocus {
+	background-color: yellow;
+	transition: background-color 0.3s ease; /* Glatte Übergänge */
+}
+
+/* Container für das Popup-Fenster */
+#popup-container {
+    font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 10px; /* Innenabstand */
+	width: 200px; /* Begrenzte Breite */
+	background-color: #f8f9fa; /* Hellgrauer Hintergrund */
+	border-radius: 8px; /* Abgerundete Ecken */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten für eine schwebende Optik */
+}
+
+/* Stellt sicher, dass alle Inhalte die volle Breite nutzen */
+#popup-container * {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Stile für das Logo */
+#popup-container #popup-icon {
+    width: 100px; /* Festgelegte Größe */
+    margin-bottom: 5px; /* Abstand nach unten */
+}
+
+/* Überschrift (h1) Styling */
+#popup-container h1 {
+    font-size: 18px; /* Schriftgröße */
+    margin-bottom: 20px; /* Abstand nach unten */
+    color: #333; /* Dunkelgraue Schrift */
+}
+
+/* Stile für das Label (Text über der Sprachauswahl) */
+#popup-container label {
+    font-weight: bold; /* Fettdruck */
+    display: block; /* Block-Element für eigene Zeile */
+    font-size: 12px;
+    margin: 10px 0 5px; /* Abstand oben und unten */
+    color: #555; /* Mittleres Grau */
+    text-align: -webkit-left;
+}
+
+/* Dropdown (Sprachauswahl) Styling */
+#popup-container #languageSelect {
+    width: 100%; /* Nimmt gesamte Breite ein */
+    padding: 5px; /* Innenabstand */
+    margin-bottom: 10px; /* Abstand nach unten */
+    border-radius: 8px; /* Abgerundete Ecken */
+    border: 1px solid #ced4da; /* Grauer Rahmen */
+    font-size: 14px; /* Schriftgröße */
+}
+
+
+/* Layout für die Buttons */
+#controls {
+    display: flex; /* Buttons nebeneinander anordnen */
+    justify-content: space-between; /* Verteilt Buttons gleichmäßig */
+    width: 100%;
+}
+
+#controls button {
+    flex-grow: 1;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 0.5px solid #ced4da; /* Grauer Rahmen */
+    background-color: #006ab2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Hover- und Klick-Effekte */
+#controls button:hover {
+    background-color: #004d80; /* Dunkleres Blau */
+}
+
+#controls button:active {
+    background-color: #002e4d; /* Noch dunkleres Blau */
+}
+
+/* Deaktivierte Buttons */
+button:disabled {
+    background-color: #d6d8db; /* Grauer Hintergrund */
+    cursor: not-allowed; /* Mauszeiger als "nicht erlaubt" */
+}
