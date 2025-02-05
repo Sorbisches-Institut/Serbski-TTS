@@ -9,8 +9,8 @@
     font-family: Arial, sans-serif;
 	text-align: center;
 	padding: 10px; /* Innenabstand */
-	width: 200px; /* Begrenzte Breite */
-	background-color: #f8f9fa; /* Hellgrauer Hintergrund */
+	width: 200px;
+	background-color: #f8f9fa;
 	border-radius: 8px; /* Abgerundete Ecken */
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten für eine schwebende Optik */
 }
@@ -23,35 +23,35 @@
 
 /* Stile für das Logo */
 #popup-container #popup-icon {
-    width: 100px; /* Festgelegte Größe */
+    width: 100px;
     margin-bottom: 5px; /* Abstand nach unten */
 }
 
 /* Überschrift (h1) Styling */
 #popup-container h1 {
-    font-size: 18px; /* Schriftgröße */
-    margin-bottom: 20px; /* Abstand nach unten */
-    color: #333; /* Dunkelgraue Schrift */
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 /* Stile für das Label (Text über der Sprachauswahl) */
 #popup-container label {
-    font-weight: bold; /* Fettdruck */
-    display: block; /* Block-Element für eigene Zeile */
+    font-weight: bold;
+    display: block;
     font-size: 12px;
     margin: 10px 0 5px; /* Abstand oben und unten */
-    color: #555; /* Mittleres Grau */
+    color: #555;
     text-align: -webkit-left;
 }
 
 /* Dropdown (Sprachauswahl) Styling */
 #popup-container #languageSelect {
-    width: 100%; /* Nimmt gesamte Breite ein */
-    padding: 5px; /* Innenabstand */
-    margin-bottom: 10px; /* Abstand nach unten */
-    border-radius: 8px; /* Abgerundete Ecken */
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
     border: 1px solid #ced4da; /* Grauer Rahmen */
-    font-size: 14px; /* Schriftgröße */
+    font-size: 14px;
 }
 
 
@@ -66,7 +66,7 @@
     flex-grow: 1;
     padding: 10px 0;
     border-radius: 8px;
-    border: 0.5px solid #ced4da; /* Grauer Rahmen */
+    border: 0.5px solid #ced4da;
     background-color: #006ab2;
     color: white;
     font-size: 16px;
@@ -85,6 +85,6 @@
 
 /* Deaktivierte Buttons */
 button:disabled {
-    background-color: #d6d8db; /* Grauer Hintergrund */
-    cursor: not-allowed; /* Mauszeiger als "nicht erlaubt" */
+    background-color: #d6d8db;
+    cursor: not-allowed;
 }
