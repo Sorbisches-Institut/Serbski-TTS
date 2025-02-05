@@ -20,4 +20,4 @@ This is an overview of all relevant repositories and resources that were used fo
 
 ## ℹ️ Additional Information  
 - MaryTTS Main repository: [marytts](https://github.com/marytts)
-- Sorbian Institut project page: [Serbski institut - TTS](https://www.serbski-institut.de/projekte-sprachwissenschaft/entwicklung-einer-vorlesefunktion-fuer-die-nieder-und-obersorbische-schriftsprache/)
+- Sorbian Institute project page: [Serbski institut - TTS](https://www.serbski-institut.de/projekte-sprachwissenschaft/entwicklung-einer-vorlesefunktion-fuer-die-nieder-und-obersorbische-schriftsprache/)
