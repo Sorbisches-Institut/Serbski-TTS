@@ -16,7 +16,7 @@ This is an overview of all relevant repositories and resources that were used fo
 - **Lexicon:** [marytts/marytts-lexicon-hsb](https://github.com/marytts/marytts-lexicon-hsb) 
 - **Language component:** [marytts/marytts-lang-hsb](https://github.com/marytts/marytts-lang-hsb)  
 - **Voice data:** [marytts/serbski-institut-hsb-data](https://github.com/marytts/serbski-institut-hsb-data)  
-- **Matej - Male Upper Sorbian unit selection voice:** [marytts/voice-serbski-institut-dsb-matej](https://github.com/marytts/voice-serbski-institut-dsb-matej)
+- **Matej - Male Upper Sorbian unit selection voice:** [marytts/voice-serbski-institut-hsb-matej](https://github.com/marytts/voice-serbski-institut-hsb-matej)
 
 ## ℹ️ Additional Information  
 - MaryTTS Main repository: [marytts](https://github.com/marytts)
