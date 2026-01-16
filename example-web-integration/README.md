@@ -17,12 +17,5 @@ It was originally used within a **custom WordPress setup**. This example is prov
 
 ## Files
 
-- `index.html` – example HTML page demonstrating the integration  
 - `tts-example.js` – the JavaScript TTS script  
 - `README.md` – this file
-
-## Usage
-
-1. Open `index.html` in a browser or via GitHub Pages.  
-2. Click **Start Reading** to test the TTS player.  
-3. Adjust container IDs or library inclusion if integrating into another website.
