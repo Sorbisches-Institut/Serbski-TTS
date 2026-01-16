@@ -1,9 +1,0 @@
-Beispiel-Integration des TTS-JavaScript
-
-Dieses Verzeichnis enthält ein Beispiel-JavaScript, das zeigt, wie die TTS-Funktionalität des Sorbischen Instituts in eine Webseite eingebunden werden kann.
-
-Worum geht es?
-
-Der bereitgestellte JavaScript-Code wurde ursprünglich in einer WordPress-Umgebung verwendet, um Texte auf einer Seite automatisch in sorbischer Sprache vorlesen zu lassen. Das hier gezeigte Beispiel dient als Referenz-Implementierung für andere Webseitenbetreiber.
-
-Es handelt sich nicht um ein fertiges Plugin oder eine universelle Lösung, sondern um ein Beispiel einer funktionierenden Einbindung.
